@@ -29,6 +29,10 @@ async function ChechWeather(city){
             image.src="./haze.png";
             
             break;
+        case 'Haze':
+             image.src="./haze.png";
+                
+             break;
         case "Clouds":
             image.src="./cloudy.png";
             break;
@@ -43,6 +47,8 @@ async function ChechWeather(city){
             break;
         case "Drizzle":
             image.src="./drizzle.png";
+        case "Thunderstorm":
+            image.src="./thunderstorm.png";
         //case "heavy"
         //default:
           //  image.src="./suncloud.png";
